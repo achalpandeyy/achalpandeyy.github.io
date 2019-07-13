@@ -20,7 +20,8 @@
 body {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size: 18px;
-  color: #515151;
+  color: #a5a5a5;
+  background: #1c1c1c;
   line-height: 1.75rem;
 }
 
@@ -44,16 +45,16 @@ h1 a {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Quattrocento Sans", sans-serif;
-  color: #333;
+  color: #d2d2d2;
 }
 
 a {
-  text-decoration: underline;
-  color: #333;
+  text-decoration: none;
+  color: #d2d2d2;
 }
 
 a:hover {
-  color: black;
+  color: #458cc9;
   border-bottom: none;
 }
 
@@ -72,7 +73,7 @@ blockquote {
 }
 
 hr {
-  border-top: 1px solid #ccc;
+  border-top: 0.5px solid #d2d2d2;
 }
 
 /*
@@ -82,7 +83,7 @@ hr {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 615px;
+  width: 900px;
 }
 
 /*48em*/
@@ -105,13 +106,13 @@ hr {
 }
 
 .masthead a:hover {
-  color:black;
+  color:#458cc9;
 }
 
 .masthead-title a {
   font-size: 2rem;
   text-decoration: none;
-  color: #505050;
+  color: #d2d2d2;
 }
 
 .masthead-subtitle {
@@ -163,10 +164,6 @@ hr {
   }
 }
 
-.related {
-  padding-bottom: 2rem;
-}
-
 /*
   Pagination
 */
@@ -179,15 +176,6 @@ hr {
 
 .pagination a {
   text-decoration: none;
-}
-
-.pagination-button {
-  color: #999;
-  border: 1px solid #e0e0e0;
-  padding: 15px 45px;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: bold;
 }
 
 .pagination-active {
