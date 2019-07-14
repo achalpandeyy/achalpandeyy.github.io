@@ -1,15 +1,16 @@
 ---
-layout: page
+layout: blog_feed
 title: Blog
 ---
 
 {% for post in paginator.posts %}
 <div class="posts">
-    <h3>
+    <h1>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h3>
+    </h1>
     <p>
-        <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+        <!--Add tags-->
+        <span class="post-date"> {{ post.date | date: '%b %d, %Y' }}</span>
     </p>
     <p>
         {{ post.content }}

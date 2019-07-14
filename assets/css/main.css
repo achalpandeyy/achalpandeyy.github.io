@@ -12,17 +12,23 @@
     Tables
     Social media icons
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
 
 /*
   Base
 */
 
-body {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
-  font-size: 18px;
-  color: #a5a5a5;
-  background: #1c1c1c;
-  line-height: 1.75rem;
+body
+{
+  	font-family: 'Roboto', sans-serif;
+  	color: #a5a5a5;
+  	background: #1c1c1c;
+  	line-height: 1.75rem;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	text-transform: none;
 }
 
 @media (max-width: 30em) {
@@ -43,9 +49,11 @@ h1 a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Quattrocento Sans", sans-serif;
-  color: #d2d2d2;
+h1, h2, h3, h4, h5, h6
+{
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: #d2d2d2;
 }
 
 a {
@@ -98,11 +106,11 @@ hr {
   Masthead
 */
 
-.masthead {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  margin-bottom: 4rem;
-  font-family: "Quattrocento Sans", sans-serif;
+.masthead
+{
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	margin-bottom: 4rem;
 }
 
 .masthead a:hover {
@@ -149,13 +157,14 @@ hr {
   list-style: none;
 }
 
-.post-date {
-  display: block;
-  margin-top:3px;
-  margin-bottom: 1rem;
-  color: #9a9a9a;
-  font-family: 'Quattrocento Sans', sans-serif;
-  font-size:0.8rem;
+.post-date
+{
+	display: block;
+	margin-top:3px;
+	margin-bottom: 1rem;
+	color: #d2d2d2;
+	font-family: 'Roboto', sans-serif;
+	font-size:0.8rem;
 }
 
 @media (max-width: 30rem) {
