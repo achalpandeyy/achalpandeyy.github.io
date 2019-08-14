@@ -10,7 +10,7 @@ Its pretty trivial at this point. I've implemented a (very) basic ray tracing en
 
 As far as shading is concerned, there is no such thing implemented yet! I'm simply visualizing the result of intersections by calculating the facing ratio i.e. the dot product of view direction and normal at the intersection point. The images are being written in the .ppm format mainly because it is probably the easiest one to write to.
 
-Here is a render of a spherical mesh "shaded" with face normals calculated for each triangle in the mesh:
+Here is a render of a spherical mesh "shaded" with face normal calculated for each triangle in the mesh:
 
 ![Face Normals Shaded](/assets/img/2019-08-14/faceNormals.png)
 
