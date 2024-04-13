@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.center-text { 
+    text-align: center;  
+}
+
+.iico {
+    width: 40px;
+    height: 40px;
+}
+
+hr { 
+    margin-left: auto;  /* Centers the <hr> tag */
+    margin-right: auto;
+    width: 100%;         /* Optional: adjust width as needed */
+} 
