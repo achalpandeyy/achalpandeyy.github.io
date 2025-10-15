@@ -19,4 +19,18 @@ hr {
     margin-left: auto;  /* Centers the <hr> tag */
     margin-right: auto;
     width: 100%;         /* Optional: adjust width as needed */
-} 
+}
+
+/* Code block styling */
+pre {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Consolas', monospace;
+    font-size: 14px;
+}
